@@ -1,0 +1,99 @@
+body{
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: rgb(42, 39, 39);
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    color: white;
+
+}
+.outer-nav{
+    position: sticky;  
+    background-color: rgb(42, 39, 39);
+    z-index: 1000;
+}
+
+.logo{
+    border: solid;
+    border-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 2px;
+    margin-right: 400px;
+    height: 32px;
+}
+.menu{
+    display: flex;
+    gap: 30px;
+}
+.nested-menu{
+    border: solid;
+    border-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 10px;
+    height: 32px;
+}
+.logo:hover{
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(42, 39, 39);
+    color: rgb(42, 39, 39);
+    border-radius: 15px;
+    transition: 200ms ease-in-out;
+}
+.nested-menu:hover{
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(42, 39, 39);
+    color: rgb(42, 39, 39);
+    border-radius: 15px;
+    transition: 200ms ease-in-out;
+}
+.nested-listing{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    font-size: 25px;
+    align-items: center;
+    color: whitesmoke;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.nested-listing-text{
+    font-size: 30px;
+}
+.nested-listing-desc{
+    width: 600px;
+    justify-content:baseline;
+}
+.nested-listing-second{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.btn{
+    border: none;
+    border: solid;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 8px;
+    border-color: white;
+    background-color: rgb(42, 39, 39);
+    color: white;
+}
+.btn:hover{
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(42, 39, 39);
+    color: rgb(42, 39, 39);
+    border-radius: 15px;
+    transition: 200ms ease-in-out;
+}
